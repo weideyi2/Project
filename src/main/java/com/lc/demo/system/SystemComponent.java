@@ -15,15 +15,17 @@ public class SystemComponent implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        try {
-            System.out.println("开始调用了。。。");
-            TestStackDeep.recursion(0L, 0L, 0L);
-//            TestStackDeep.recursion();
-        } catch (Throwable e) {
-            System.out.println(e);
-            System.out.println("deep of calling = " + TestStackDeep.count);
-        }
+//        try {
+//            System.out.println("开始调用了。。。");
+//            TestStackDeep.recursion(0L, 0L, 0L);
+////            TestStackDeep.recursion();
+//        } catch (Throwable e) {
+//            System.out.println(e);
+//            System.out.println("deep of calling = " + TestStackDeep.count);
+//        }
 
+
+        System.out.println("你准备好了吗？");
 
     }
 }
